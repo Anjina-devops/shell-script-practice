@@ -4,8 +4,10 @@
 
 echo "Please enter your username :"
 read -s username
-echo "your entered username is :$username"
+#echo "your entered username is :$username"
 
 echo "Please enter your password"
 read -s pwd #if you mentioned  -s it will hide the entered details
-echo "your entered password is :$pwd"
+#echo "your entered password is :$pwd"
+
+echo "Thank you for confirming your Authentication..."
