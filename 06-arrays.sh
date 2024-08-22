@@ -4,4 +4,5 @@
 PERSONS=("Megha" "Bhargav" "Tejas")
 
 echo "The head of the family is 1st persom in the array:${PERSONS[0]}"
-echo " the All family numbers from the array is :${PERSONS[@]}"
+
+echo "the All family numbers from the array is :${PERSONS[@]}"
