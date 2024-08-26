@@ -16,11 +16,7 @@ echo "LogFile name...............$LOGFILE"
 
 echo "Directory :$APP_LOGS_DIR"
 
-#FILES_TO_DELETE=$(find $APP_LOGS_DIR -name "*.log" -type f -mtime +14)
-
-FILES_TO_DELETE=$(find $APP_LOGS_DIR)
-
-echo "Files to delete :$(find $APP_LOGS_DIR -name "*.log" -type f -mtime +14)"
+FILES_TO_DELETE=$(find $APP_LOGS_DIR -name "*.log" -type f -mtime +14)
 
 echo "Files $FILES_TO_DELETE"
 
