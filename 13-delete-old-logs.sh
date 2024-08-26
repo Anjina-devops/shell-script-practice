@@ -12,7 +12,7 @@ SCRIPT_NAME=$0
 echo " script name is :$SCRIPT_NAME"
 LOGFILE=$LOGSDIR/$SCRIPT_NAME-$DATE.log
 
-echo "LogFile name...............$LOGFILE"
+echo "Started...............$LOGFILE"
 
 echo "Directory :$APP_LOGS_DIR"
 
